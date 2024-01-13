@@ -25,18 +25,17 @@ a, a:link{
     gap:0 10px;
 }
 
-
+/*================== header ======================*/
 .container{
     width: 1000px;
     height: 60px;
-    background-color: rgba(32, 14, 37, 0.7);
-  
-    
+    background-color: rgba(32, 14, 37, 0.7);  
 }
 
 .login>a:nth-child(1){
     position: relative;
 }
+
 .login img{
     position: absolute;
     left:-35px;
@@ -44,3 +43,29 @@ a, a:link{
 }
 
 
+/*================== banner ======================*/
+
+.b-container {
+    width: 1000px;
+    height: 835px;
+    position: relative;
+}
+
+.b-container>img:nth-child(1) {
+    width:1000px;
+    height:835px;
+}
+
+.b-container>img:nth-child(2) {
+    position: absolute;
+    top: 500px;
+    left: 270px;
+}
+
+.b-container>img:nth-child(3) {
+    position: absolute;
+    z-index: 10px;
+    right:50px;
+    top:750px;
+    
+}
